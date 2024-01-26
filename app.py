@@ -64,7 +64,7 @@ Here is the given user query: {query}"""}
     print(search_results)
 
     msg = [
-        {"role": "system", "content": "Given a query and search results, your goal is to return a well-organized list of sources relevant to the query. Categorize the sources under different headings such as Books, Movies, Series, Articles, Entrepreneurs, Personalities, etc. Also don't include any links in these headings. Write content under each heading without including any links. Additionally, create a 'References' section at the end to include all the links and references related to the query. Ensure that links are only placed in the 'References' section and not under other headings. Use markdown format."},
+        {"role": "system", "content": "Given a query and search results, your goal is to return a well-organized list of sources relevant to the query. Categorize the sources under different headings such as Books, Movies, Series, Articles, Entrepreneurs, Personalities, etc as many heading you want. Also don't include any links in these headings. Write content under each heading without including any links. Additionally, create a 'References' section at the end to include all the links and references related to the query. Ensure that links are only placed in the 'References' section and not under other headings. Use markdown format."},
         {"role": "user", "content": f"search results: {search_results}\nuser query: {query}"}
     ]
 
