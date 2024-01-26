@@ -2,7 +2,6 @@ import os
 import requests
 from dotenv import load_dotenv
 import streamlit as st
-import openai
 import json
 from openai import OpenAI
 
